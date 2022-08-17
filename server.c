@@ -78,6 +78,7 @@ It gives a sequence number to a transaction, this number is incremented once a t
 It saves any type of transaction, APPROVED or DECLINED, with the specific reason for declining/transaction state.
 If transaction can't be saved will return SAVING_FAILED, else will return OK
 */
+
 EN_serverError_t saveTransaction(ST_transaction_t* transData)
 {
 	if (transData->transState == APPROVED || transData->transState == DECLINED_INSUFFECIENT_FUND || transData->transState == DECLINED_STOLEN_CARD)
