@@ -59,7 +59,7 @@ EN_transState_t recieveTransactionData(ST_transaction_t* transData)
 		transData->transState = DECLINED_INSUFFECIENT_FUND;
 		return DECLINED_INSUFFECIENT_FUND;
 	}
-	else if (currnentsizeOfTransactions >= 254)                                 // transactions reaches 255
+	else if (currnentsizeOfTransactions > 254)                                 // transactions reaches 255
 	{
 		transData->transState = INTERNAL_SERVER_ERROR;
 		return INTERNAL_SERVER_ERROR;
