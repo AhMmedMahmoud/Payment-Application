@@ -1,5 +1,4 @@
 # Payment-Application
-EgFWD Professional Embedded Systems track. C programming recap project
 ## Aim
 implement SALE transaction in payment systems by simulating the card, terminal(ATM), and the server.
 ## Processes Diagram
