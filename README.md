@@ -1,4 +1,5 @@
 # Payment-Application
+This project is for the EgFWD Embedded Systems Professional NanoDegree Scholarship. it was written in C using Microsoft Visual Studio.
 ## Aim
 implement SALE transaction in payment systems by simulating the card, terminal(ATM), and the server.
 ## Application flowchart
